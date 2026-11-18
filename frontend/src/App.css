@@ -1,0 +1,105 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #1d4ed8;
+}
+
+.form-card,
+.table-card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0,0,0,.06);
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin: 3px;
+}
+
+form button {
+  background: #2563eb;
+}
+
+.cancel {
+  background: #64748b;
+}
+
+.view {
+  background: #0891b2;
+}
+
+.edit {
+  background: #d97706;
+}
+
+.delete {
+  background: #dc2626;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 14px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+  background: #eff6ff;
+}
+
+@media(max-width: 600px) {
+  .container {
+    padding: 15px 10px;
+  }
+
+  .form-card, .table-card {
+    padding: 15px;
+  }
+}
